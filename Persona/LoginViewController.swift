@@ -49,7 +49,7 @@ class LoginViewController: UIViewController {
     
     
     //**********************Dismisses Keyboard when View Touched*********//
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         view.endEditing(true)
     }
 

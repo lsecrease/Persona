@@ -1,25 +1,29 @@
 //
-//  ViewController.swift
+//  FeedViewController.swift
 //  Persona
 //
-//  Created by lsecrease on 6/18/15.
+//  Created by lsecrease on 11/4/15.
 //  Copyright (c) 2015 ImagineME. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class FeedViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
 
 }
-
